@@ -1,0 +1,15 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: demo
+
+  datasource:
+    platform: mysql
+#    url: jdbc:mysql://database-1.cfbtn77emuhe.ap-northeast-2.rds.amazonaws.com/demo?autoReconnect=true&setTimezone=Asia/Seoul # 변경해주세요
+    url: jdbc:mysql://database-1.ckkbvrqlllxk.ap-northeast-2.rds.amazonaws.com/demo?autoReconnect=true&setTimezone=Asia/Seoul # demo 스키마
+    username:  admin
+    password:  rf3051aksTn!
+    driver-class-name: com.mysql.cj.jdbc.Driver # mysql 8버전
+    # driver-class-name: com.mysql.jdbc.Driver # mysql 5버전
